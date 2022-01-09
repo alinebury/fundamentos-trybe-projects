@@ -1,0 +1,20 @@
+#color-palette{
+    border-radius: 1px;
+    border-color: black;
+}
+
+.color{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 1px black solid;
+}
+
+.pixel{
+    width: 40px;
+    height: 40px;
+    border: 1px black solid;
+    display: inline-block;
+    background-color: white;
+}
+
