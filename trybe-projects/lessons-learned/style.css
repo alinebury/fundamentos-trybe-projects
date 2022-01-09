@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+    position: fixed;
+    top: 0px;
+    background-color: pink;
+}
+
+img {
+    padding: 5% 0;
+}
+
+td,
+th {
+    border: 1px solid #9e0707;
+}
+
+table {
+    border: 1px solid red;
+    width: 15%;
+    position: absolute;
+    top: 135%;
+}
+
+article,
+aside {
+    margin: 3%;
+    font-family: sans-serif;
+    font-size: 110%;
+    color: blue;
+    line-height: 130%;
+}
+
+.lado-direito {
+    float: right;
+    width: 30%;
+}
+
+.lado-esquerdo {
+    float: left;
+    position: absolute;
+    width: 30%;
+}
+
+footer {
+    position: absolute;
+    top: 150%;
+}
