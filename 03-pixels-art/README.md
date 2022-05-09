@@ -1,6 +1,6 @@
 # Projeto Pixels art
 
-![Pixels Art](pixels-art.mp4)
+![Pixels Art](/pixelsArt.gif)
 
 ### Sobre o projeto:
 
