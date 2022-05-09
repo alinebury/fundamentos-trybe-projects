@@ -1,6 +1,6 @@
 # Projeto Pixels art
 
-![Pixels Art](/pixels-art.webm)
+![Pixels Art](pixels-art.webm)
 
 ### Sobre o projeto:
 
