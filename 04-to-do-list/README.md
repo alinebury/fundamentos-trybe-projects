@@ -1,6 +1,6 @@
 # Projeto To do List
 
-![Solar-System](/to-do-list.png)
+![ToDoList](/to-do-list.png)
 
 ### Sobre o projeto:
 
