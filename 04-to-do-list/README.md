@@ -1,6 +1,6 @@
 # Projeto To do List
 
-![ToDoList](/to-do-list.png)
+![ToDoList](to-do-list.png)
 
 ### Sobre o projeto:
 
