@@ -1,6 +1,6 @@
 # Projeto Pixels art
 
-![Pixels Art](/images/gradienta-O10vBIDRkZw-unsplash.jpg)
+![Pixels Art](images/pixelsArt.gif)
 
 ### Sobre o projeto:
 
