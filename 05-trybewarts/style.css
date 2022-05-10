@@ -1,27 +1,56 @@
+* {
+  font-family: "Oswald", Helvetica Neue;
+}
+
 .header {
   display: flex;
-  background-color: rgb(50, 167, 145);
+  color: white;
+  font-size: 25px;
+  background-color: rgb(50, 168, 146);
   justify-content: space-between;
   align-items: center;
+  text-align: center;
 }
 
 .trybewarts-login {
   display: flex;
 }
 
+input {
+  padding: 7px;
+  border-radius: 6px;
+  border: 1px solid white;
+  margin: 1px;
+}
+
+.login {
+  padding: 7px;
+  border-radius: 6px;
+  background-color: rgb(78, 44, 131);
+  border: 1px solid rgb(78, 44, 131);
+  color: white;
+  width: 100px;
+}
+
 main {
   display: flex;
   flex-direction: row-reverse;
+  background-color: rgb(239, 239, 239);
 }
 
 #trybewarts-forms-logo {
-  height: 500px;
+  height: 700px;
+  margin-right: 200px;
 }
 
 #evaluation-form {
   display: flex;
-  width: 675px;
+  width: 800px;
   flex-direction: column;
+}
+
+#evaluation-form h2 {
+  text-align: center;
 }
 
 .familia {
@@ -39,4 +68,31 @@ main {
 
 footer {
   text-align: center;
+  padding: 10px;
+  background-color:rgb(60, 64, 75);
+  color: white;
+}
+
+#house {
+  padding: 7px;
+  border-radius: 6px;
+  border: 1px solid white;
+  margin: 1px;
+}
+
+#submit-btn {
+  padding: 7px;
+  border-radius: 6px;
+  background-color: rgb(78, 44, 131);
+  border: 1px solid rgb(78, 44, 131);
+  color: white;
+  width: 100px;
+}
+
+#input-name {
+  padding: 7px;
+}
+
+.part-one .part-two {
+  padding: 10px 0 0 10px;
 }
