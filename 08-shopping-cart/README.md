@@ -1,6 +1,6 @@
 # Projeto Shopping Cart
 
-![Shopping Cart](/shopping-cart.png)
+![Shopping Cart](shopping-cart.png)
 
 ### `npm install`
  Para instalar as depêncidas.
