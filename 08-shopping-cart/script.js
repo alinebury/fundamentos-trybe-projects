@@ -31,13 +31,13 @@ function createProductItemElement({ sku, name, image, salePrice }) {
 
 function addPrice(add) {
   const productItems = Number(price.innerHTML) + Number(add);
-  price.innerText = productItems;
+  price.innerText = productItems.toFixed(2);
 }
 
 function removePrice(li) {
   const n = Number(li.innerText.split(' ').pop().slice(1));
   const value = Number(price.innerText);
-  price.innerText = value - n;
+  price.innerText = Number(value - n).toFixed(2);
 }
 
 async function cartItemClickListener(event) {
@@ -46,10 +46,11 @@ async function cartItemClickListener(event) {
   removePrice(event.target);
 }
 
-function createCartItemElement({ sku, name, salePrice }) {
+function createCartItemElement({ sku, name, salePrice, image }) {
   const li = document.createElement('li');
+  const img = document.createElement('img');
   li.className = 'cart__item';
-  li.innerText = `SKU: ${sku} | NAME: ${name} | PRICE: $${salePrice}`;
+  li.innerHTML = `<img src="${image}"> <br> SKU: ${sku} <br> NAME: ${name} <br> PRICE: $${salePrice}`;
   li.addEventListener('click', cartItemClickListener);
   addPrice(salePrice);
   return li;
